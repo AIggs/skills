@@ -1,8 +1,7 @@
 ---
-name: project-homepage-make
+name: fe-homepage
 description: Generate a stunning project homepage with high-tech dark theme, swirl particle background, rainbow gradient effects, and rich animations. Use when user asks to create a landing page for a project or product.
 license: MIT
-compatibility: opencode
 metadata:
   audience: developers
   usage: Landing page generation
