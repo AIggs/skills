@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Cap - Web Capture Tool",
+  "version": "1.0",
+  "description": "Click icon to enable floating capture tool",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Click to launch Cap floating tool"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "180": "icons/apple-touch-icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
